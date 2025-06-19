@@ -1,0 +1,227 @@
+---
+title: "<Title>"
+subtitle: "<Subtitle>"
+author:
+  - name: Jean-Baptiste Carré
+    id: CJT
+    email: jean-baptiste.carre@heig-vd.ch
+    affiliation:
+      - name: Institut des Énergies, HEIG-VD
+      - city: Yverdon-les-Bains
+      - state: Vaud
+      - url: https://heig-vd.ch/rad/instituts/ie
+  - name: Alexis Duret
+    id: ADR
+    email: alexis.duret@heig-vd.ch
+    affiliation:
+      - name: Institut des Énergies, HEIG-VD
+      - city: Yverdon-les-Bains
+      - state: Vaud
+      - url: https://heig-vd.ch/rad/instituts/ie
+  - name: Julien Ropp
+    id: ROJ
+    email: julien.ropp@heig-vd.ch
+    affiliation:
+      - name: Institut des Énergies, HEIG-VD
+      - city: Yverdon-les-Bains
+      - state: Vaud
+      - url: https://heig-vd.ch/rad/instituts/ie
+  - name: Gabriel Tschumi
+    id: GTS
+    email: gabriel.tschumi@heig-vd.ch
+    affiliation:
+      - name: Institut des Énergies, HEIG-VD
+      - city: Yverdon-les-Bains
+      - state: Vaud
+      - url: https://heig-vd.ch/rad/instituts/ie
+  - name: Prof. Roger Röthlisberger
+    id: RRE
+    email: roger.roethlisberger@heig-vd.ch
+    affiliation:
+      - name: Institut des Énergies, HEIG-VD
+      - city: Yverdon-les-Bains
+      - state: Vaud
+      - url: https://heig-vd.ch/rad/instituts/ie
+  - name: Nicolas Weber
+    id: NWR
+    email: nicolas.weber@heig-vd.ch
+    affiliation:
+      - name: Institut des Énergies, HEIG-VD
+      - city: Yverdon-les-Bains
+      - state: Vaud
+      - url: https://heig-vd.ch/rad/instituts/ie
+  - name: Xenia Christodoulou
+    id: XCU
+    email: xenia.christodoulou@heig-vd.ch
+    affiliation:
+      - name: Institut des Énergies, HEIG-VD
+      - city: Yverdon-les-Bains
+      - state: Vaud
+      - url: https://heig-vd.ch/rad/instituts/ie
+  - name: Mathias Baumann
+    id: MBN
+    email: mathias.baumann@heig-vd.ch
+    affiliation:
+      - name: Institut des Énergies, HEIG-VD
+      - city: Yverdon-les-Bains
+      - state: Vaud
+      - url: https://heig-vd.ch/rad/instituts/ie
+  - name: Lucas Vonlanthen
+    id: LVE
+    email: lucas.vonlanthen@heig-vd.ch
+    affiliation:
+      - name: Institut des Énergies, HEIG-VD
+      - city: Yverdon-les-Bains
+      - state: Vaud
+      - url: https://heig-vd.ch/rad/instituts/ie
+  - name: Enrico Da Riva
+    id: EDA
+    email: enrico.dariva@heig-vd.ch
+    affiliation:
+      - name: Institut des Énergies, HEIG-VD
+      - city: Yverdon-les-Bains
+      - state: Vaud
+      - url: https://heig-vd.ch/rad/instituts/ie
+  - name: Isabelle Monney
+    id: IMY
+    email: isabelle.monney@heig-vd.ch
+    affiliation:
+      - name: Institut des Énergies, HEIG-VD
+      - city: Yverdon-les-Bains
+      - state: Vaud
+      - url: https://heig-vd.ch/rad/instituts/ie
+  - name: Marc-André Baillifard
+    id: BAM
+    email: marc-andre.baillifard@heig-vd.ch
+    affiliation:
+      - name: Institut des Énergies, HEIG-VD
+      - city: Yverdon-les-Bains
+      - state: Vaud
+      - url: https://heig-vd.ch/rad/instituts/ie
+  - name: Cyril M'Ahmed
+    id: MCL
+    email: cyril.mahmed@heig-vd.ch
+    affiliation:
+      - name: Institut des Énergies, HEIG-VD
+      - city: Yverdon-les-Bains
+      - state: Vaud
+      - url: https://heig-vd.ch/rad/instituts/ie
+  - name: Juliette Saint
+    id: JST
+    email: juliette.saint@heig-vd.ch
+    affiliation:
+      - name: Institut des Énergies, HEIG-VD
+      - city: Yverdon-les-Bains
+      - state: Vaud
+      - url: https://heig-vd.ch/rad/instituts/ie
+date: 1900-01-01
+license: "CC BY"
+lang: en-US
+funding: "<Project>"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    link-external-newtab: true
+    standalone: true
+    embed-resources: true
+    code-fold: true
+  revealjs:
+    output-file: main_slides.html
+    toc: true
+    toc-depth: 2
+    standalone: true
+    embed-resources: true
+    theme: templates/heig.scss
+    logo: templates/HEIG-VD_logotype_rouge-rvb.png
+    slide-number: true
+    link-external-newtab: true
+    show-slide-number: all
+    width: 1920
+    height: 1080
+    include-in-header:
+      - text: |
+          <style type="text/css">
+          ul li ul li {
+            font-size: 0.8em;
+          }
+          </style>
+    footer: "<Project>, <Date>, Yverdon-les-Bains"
+  docx:
+    toc: true
+    toc-depth: 2
+    callout-icon: false
+    reference-doc: templates/heig_quarto_template.docx
+    number-sections: true
+    highlight-style: github
+    link-citations: true
+    link-bibliography: true
+    code: false
+    echo: false
+    papersize: A4
+  pdf:
+    toc: false
+    toc-depth: 3
+    fontsize: 8 pt
+    code: false
+    code-link: false
+    echo: false
+    papersize: A4
+format-links: [revealjs, docx, pdf]
+bibliography: /home/cjt/PKM/02_resources/99_zotero/zotero.bib
+csl: https://www.zotero.org/styles/ieee-transactions-on-energy-conversion
+citeproc: true
+---
+
+:::{.content-visible when-format="html" unless-format="revealjs"}
+<style>
+#TOC {
+  background: url("templates/heig_ie_logo.png");
+  background-size: 100%;
+  background-position: center top;
+  padding-top: 120px !important;
+  background-repeat: no-repeat;
+}
+</style>
+:::
+
+:::{.content-visible unless-format="revealjs"}
+:::{.callout-important title="Executive Summary"}
+
+TODO
+
+:::
+:::
+
+:::{.content-visible unless-format="revealjs"}
+**Glossary**
+
+- **HEIG-VD**: School of Business and Engineering Vaud
+:::
+
+# Introduction
+
+:::{.content-visible unless-format="revealjs"}
+This sentence here only appears in the report files, not in the slides [@Carre2015].
+:::
+
+:::{.content-visible when-format="html" unless-format="revealjs"}
+This sentence here only appears in the HTML report. Not in the PDF, docx, or in the slides [@Carre2015].
+:::
+
+:::{.content-visible when-format="docx"}
+This sentence here only appear in the docx report [@Carre2015].
+:::
+
+:::{.content-visible when-format="pdf"}
+This sentence here only appear in the pdf report [@Carre2015].
+:::
+
+:::{.content-visible when-format="revealjs"}
+This sentence here only appears in the slides [@Carre2015].
+:::
+
+# References
+
+::: {#refs}
+:::

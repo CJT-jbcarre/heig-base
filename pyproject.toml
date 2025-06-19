@@ -1,9 +1,9 @@
 [project]
-name = "heig-base"
+name = "<Project>"
 version = "1.0.0"
-description = "HEIG-VD Base Project"
+description = "<Project Description>"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.11"
 dependencies = [
     "arcticdb",
     "chardet",
